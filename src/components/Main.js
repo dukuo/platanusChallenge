@@ -1,7 +1,7 @@
 require('normalize.css/normalize.css');
 require('styles/App.css');
 import React from 'react';
-import bitcoinWS from './bitcoinWS';
+import BitcoinWS from './bitcoinWS';
 
 
 class AppComponent extends React.Component {
@@ -14,7 +14,7 @@ class AppComponent extends React.Component {
       <div>
         <h2>Bitcoin real-time</h2>
         <p>&Uacute;ltimas actualizaciones:</p>
-        <bitcoinWS />
+        <BitcoinWS />
       </div>
     );
   }
